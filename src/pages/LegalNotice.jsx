@@ -37,12 +37,75 @@ const LegalNotice = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
-            className="max-w-4xl mx-auto text-center"
+            className="max-w-4xl mx-auto"
           >
-            <h1 className="text-4xl font-bold mb-8">Legal Notice</h1>
-            <p className="text-lg text-gray-600">
-              Please check back later for detailed legal information.
-            </p>
+            <h1 className="text-4xl font-bold mb-12 text-center">Legal Notice</h1>
+
+            <div className="bg-white rounded-lg shadow-md p-8 space-y-8">
+              <div>
+                <h2 className="text-2xl font-bold mb-4">Site Operator</h2>
+                <div className="space-y-2 text-gray-700">
+                  <p className="font-semibold">Name / Company:</p>
+                  <p>Fikret Pehlivan</p>
+                  <p>Pehlivan Lean Process AI – Lean Office & AI Solutions</p>
+
+                  <p className="font-semibold mt-4">Address:</p>
+                  <p>Gussstrasse 50</p>
+                  <p>8180 Bülach</p>
+                  <p>Switzerland</p>
+
+                  <p className="font-semibold mt-4">Contact:</p>
+                  <p>Email: contact@leanprocessai.com</p>
+                  <p>Phone: +41 79 535 41 23</p>
+                </div>
+              </div>
+
+              <hr className="border-gray-200" />
+
+              <div>
+                <h2 className="text-2xl font-bold mb-4">Purpose of this Website</h2>
+                <p className="text-gray-700">
+                  This website provides information about consulting services in the areas of Lean Office, Process Optimization, Digital Transformation and AI-related advisory.
+                </p>
+              </div>
+
+              <hr className="border-gray-200" />
+
+              <div>
+                <h2 className="text-2xl font-bold mb-4">Disclaimer</h2>
+                <div className="space-y-4 text-gray-700">
+                  <p>
+                    The content of this website has been created with the greatest possible care. However, I do not assume any liability for the correctness, completeness, or up-to-dateness of the content.
+                  </p>
+                  <p>
+                    This website contains links to external third-party websites, over whose contents I have no influence. Therefore, I cannot assume any liability for these external contents. The respective provider or operator of the pages is always responsible for the content of the linked pages. At the time of linking, the linked pages were checked for possible legal violations. Illegal content was not recognisable at the time of linking. However, permanent monitoring of the content of the linked pages is not reasonable without concrete evidence of an infringement. If I become aware of any legal infringements, I will remove such links immediately.
+                  </p>
+                </div>
+              </div>
+
+              <hr className="border-gray-200" />
+
+              <div>
+                <h2 className="text-2xl font-bold mb-4">Copyright</h2>
+                <div className="space-y-4 text-gray-700">
+                  <p>
+                    The content and works on these pages created by the site operator are subject to copyright law. Reproduction, editing, distribution, and any kind of exploitation outside the limits of copyright law require the written consent of the respective author or creator.
+                  </p>
+                  <p>
+                    Insofar as the content on this page was not created by the operator, the copyrights of third parties are respected. In particular, content of third parties is marked as such. Should you nevertheless become aware of a copyright infringement, please inform me accordingly. Upon becoming aware of any legal infringements, I will remove such content immediately.
+                  </p>
+                </div>
+              </div>
+
+              <hr className="border-gray-200" />
+
+              <div>
+                <h2 className="text-2xl font-bold mb-4">Place of Jurisdiction</h2>
+                <p className="text-gray-700">
+                  Unless mandatory statutory provisions apply, the exclusive place of jurisdiction is Bülach, Switzerland.
+                </p>
+              </div>
+            </div>
           </motion.div>
         </div>
       </section>
